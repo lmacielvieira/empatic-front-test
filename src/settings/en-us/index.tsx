@@ -1,5 +1,6 @@
 export * from './labels'
 export * from './menu'
+export * from './pages'
 
 export const errors = {
 	unexpectedError: 'Something unexpected went wrong :(',

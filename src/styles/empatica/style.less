@@ -1,9 +1,30 @@
 @import (reference) './variables.less';
 
-//------------------------------------------------------------
-// Text
-//------------------------------------------------------------
+.empaticaBtn(@borderColor: @white, @textColor: @white, @backgroundColor: transparent,
+@inverseBorderColor: @white, @inverseTextColor: @black, @inverseBackgroundColor: @white) {
+	color: @white;
+	border: 2px solid @borderColor;
+	background: @backgroundColor;
+	justify-content: center;
+	align-items: center;
+	border-radius: 3px;
+	padding: .5rem 2rem .5rem 2rem;
+	text-decoration: none;
+	text-align: center;
+	transition: .25s ease-in-out;
+	overflow: hidden;
+	display: inline-block;
+	cursor: pointer;
+	line-height: 1.4rem!important;
+	position: relative;
+	max-width: 240px;
 
+	&:hover {
+		color: @inverseTextColor;
+		border: 2px solid @inverseBorderColor;
+		background: @inverseBackgroundColor;
+	}
+}
 
 //------------------------------------------------------------
 // Autofill background cheatcode
@@ -12,7 +33,7 @@ input:-webkit-autofill,
 input:-webkit-autofill:hover,
 input:-webkit-autofill:focus,
 input:-webkit-autofill:active {
-  transition: background-color 500000000000000s ease-in-out 0s,
-    color 500000000000000s ease-in-out 0s;
-  transition-delay: background-color 500000000000000s, color 500000000000000s;
+	transition: background-color 500000000000000s ease-in-out 0s,
+		color 500000000000000s ease-in-out 0s;
+	transition-delay: background-color 500000000000000s, color 500000000000000s;
 }

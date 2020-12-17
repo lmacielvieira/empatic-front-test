@@ -1,0 +1,111 @@
+@import (reference) '../../styles/globalStyle';
+@pageName: ~'landing-page';
+
+.@{pageName} {
+	min-height: 100vh;
+
+	.@{pageName}-smart-section {
+		display: flex;
+		justify-content: center;
+		width: 100%;
+		background-position: center;
+		flex-direction: column;
+		background-repeat: no-repeat;
+		background-size: cover;
+		padding-left: 10%;
+		color: white;
+
+		.defaultTitle{
+			color: white;
+			max-width: 600px;
+			margin-bottom: 24px;
+		}
+
+
+		.@{pageName}-smart-btn {
+			.empaticaBtn;
+			margin-bottom: 24px;
+		}
+
+	}
+}
+
+
+@media screen and (max-width: @screen-md) {
+	.@{pageName} {
+		.@{pageName}-smart-section {
+			padding-left: 0;
+			align-items: center;
+			text-align: center;
+
+			.defaultTitle{
+				text-align: center;
+			}
+		}
+	}
+}
+
+
+// background different dimension adjustment
+@media screen and (min-width: @screen-xxl) {
+	.@{pageName} {
+		.@{pageName}-smart-section {
+			background-image: url('../../assets/images/landing/homepage_hero-lg-xhdpi.jpg');
+			height: 800px;
+		}
+	}
+}
+
+@media screen and (min-width: @screen-xl) and (max-width: @screen-xxl) {
+	.@{pageName} {
+		.@{pageName}-smart-section {
+			background-image: url('../../assets/images/landing/homepage_hero-lg-xhdpi.jpg');
+			height: 700px;
+		}
+	}
+}
+
+@media screen and (min-width: @screen-lg) and (max-width: @screen-xl) {
+	.@{pageName} {
+		.@{pageName}-smart-section {
+			background-image: url('../../assets/images/landing/homepage_hero-lg-xhdpi.jpg');
+			height: 586px;
+		}
+	}
+}
+
+@media screen and (min-width: @screen-md) and (max-width: @screen-lg) {
+	.@{pageName} {
+		.@{pageName}-smart-section {
+			background-image: url('../../assets/images/landing/homepage_hero-lg-xhdpi.jpg');
+			height: 476px;
+		}
+	}
+}
+
+
+@media screen and (min-width: @screen-sm) and (max-width: @screen-md) {
+	.@{pageName} {
+		.@{pageName}-smart-section {
+			background-image: url('../../assets/images/landing/homepage_hero-sm-xhdpi.jpg');
+			height: 600px;
+		}
+	}
+}
+
+@media screen and (min-width: @screen-xs) and (max-width: @screen-sm) {
+	.@{pageName} {
+		.@{pageName}-smart-section {
+			background-image: url('../../assets/images/landing/homepage_hero-sm-xhdpi.jpg');
+			height: 500px;
+		}
+	}
+}
+@media screen and (max-width: @screen-xs) {
+	.@{pageName} {
+		.@{pageName}-smart-section {
+			background-image: url('../../assets/images/landing/homepage_hero-sm-xhdpi.jpg');
+			height: 400px;
+		}
+	}
+}

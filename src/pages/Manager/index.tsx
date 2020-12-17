@@ -3,8 +3,10 @@ import React from 'react'
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import NotFoundPage from '../NotFoundPage'
 import ErrorPage from '../ErrorPage'
+import LandingPage from '../LandingPage'
 
 import './style.less'
+import {KEYS} from '../../settings'
 
 export default class Manager extends React.Component<{}, {error: boolean}> {
 	_pageName = 'router-page'
@@ -53,6 +55,7 @@ export default class Manager extends React.Component<{}, {error: boolean}> {
 						<Route component={ErrorPage} />
 					) : (
 						<Switch>
+							<Route exact path={KEYS.pageKeys.index} component={LandingPage} />
 							<Route component={NotFoundPage} />
 						</Switch>
 					)}
