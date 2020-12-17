@@ -1,0 +1,8 @@
+{
+  "fixturesFolder": false,
+  "baseUrl": "http://localhost:3000",
+  "testFiles": "**/*cy-spec.js",
+  "viewportWidth": 500,
+  "viewportHeight": 800,
+  "experimentalComponentTesting": true
+}
