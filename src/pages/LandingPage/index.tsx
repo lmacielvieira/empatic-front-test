@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom'
 import {Col} from 'antd'
 import './style.less'
 import {IMAGES, SETTINGS} from '../../settings'
+import {FooterComponent} from '../../components/FooterComponent'
 
 export default class LandingPage extends React.Component {
 	_pageName = 'landing-page'
@@ -100,6 +101,7 @@ export default class LandingPage extends React.Component {
 			<div className={`${this._pageName}`}>
 				{this.renderSmartSection()}
 				{this.renderEmbraceSection()}
+				<FooterComponent />
 			</div>
 		)
 	}

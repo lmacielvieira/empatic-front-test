@@ -2,8 +2,8 @@
 @pageName: ~'landing-page';
 @maxBigContentWidth: 600px;
 @maxContentWidth: 400px;
-@maxContainerWidth: 2290px;
 @contentBottomMargin: 24px;
+@sectionPadding: 24px;
 
 .@{pageName} {
 	min-height: 100vh;
@@ -38,7 +38,7 @@
 		justify-content: center;
 		align-items: center;
 		width: 100%;
-		padding: 40px;
+		padding: @sectionPadding;
 
 		.@{pageName}-embrace-img{
 			width: @maxBigContentWidth;
@@ -78,7 +78,8 @@
 		background-size: cover;
 		color: white;
 		align-items: flex-end;
-		padding: 40px;
+		justify-content: center;
+		padding: @sectionPadding;
 		background-image: url('../../assets/images/landing/homepage_hero-lg-xhdpi.jpg');
 		height: 476px;
 

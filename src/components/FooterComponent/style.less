@@ -1,0 +1,55 @@
+@import (reference) '../../styles/globalStyle';
+@componentName: ~'footer-component';
+@minHeight: 64px;
+
+.@{componentName} {
+  width: 100%;
+  min-height: @minHeight;
+  background: @lightGrey;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+	.@{componentName}-container{
+		max-width: @maxContainerWidth;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+	}
+
+	.@{componentName}-copyright{
+		color: @darkGrey;
+		font-size: 12px;
+		padding: 16px;
+		text-align: center;
+		line-height: 16px;
+	}
+
+	.@{componentName}-tabs-wrapper {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-wrap: wrap;
+		width: 100%;
+		border-bottom: 1px solid @darkGrey;
+		padding: 16px;
+
+
+		.@{componentName}-tab {
+			margin: 0 40px;
+			color: @darkGrey;
+
+			&:hover{
+				color: black;
+			}
+		}
+
+	}
+
+
+}
+
