@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="61886203-36f7-4e93-897f-b0e4fe638cfd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nyc_output/out.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.prettierrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/env.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/getHttpsConfig.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/jest/cssTransform.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/jest/fileTransform.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/modules.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/paths.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/pnpTs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/webpack.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/webpackDevServer.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/fixtures/example.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/integration/App.cy-spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/plugins/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/support/commands.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/support/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/build.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/start.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/animations/404.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/animations/agenda.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/animations/error.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/Apex/ApexNew-Bold.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/Apex/ApexNew-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/Apex/ApexNew-Bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/Apex/ApexNew-Bold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/Apex/ApexNew-BoldItalic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/Apex/ApexNew-BoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/Apex/ApexNew-BoldItalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/Apex/ApexNew-BoldItalic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/Apex/ApexNew-Book.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/Apex/ApexNew-Book.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/Apex/ApexNew-Book.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/Apex/ApexNew-Book.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/Apex/ApexNew-BookItalic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/Apex/ApexNew-BookItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/Apex/ApexNew-BookItalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/Apex/ApexNew-BookItalic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/Apex/ApexNew-Medium.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/Apex/ApexNew-Medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/Apex/ApexNew-Medium.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/Apex/ApexNew-Medium.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/Lato/lato-v17-latin-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/Lato/lato-v17-latin-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/Lato/lato-v17-latin-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/Lato/lato-v17-latin-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/Lato/lato-v17-latin-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/Roboto/Roboto-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/Roboto/Roboto-Regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/Roboto/Roboto-Regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/icons/ic-search.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/icons/ic-search@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/icons/ic-search@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/landing/embrace_front-hdpi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/landing/embrace_front-ldpi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/landing/embrace_front-mdpi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/landing/embrace_front-xhdpi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/landing/embrace_logo-sm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/landing/embrace_logo-sm.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/landing/embrace_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/landing/embrace_logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/landing/homepage_hero-lg-hdpi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/landing/homepage_hero-lg-ldpi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/landing/homepage_hero-lg-mdpi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/landing/homepage_hero-lg-xhdpi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/landing/homepage_hero-sm-hdpi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/landing/homepage_hero-sm-ldpi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/landing/homepage_hero-sm-mdpi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/landing/homepage_hero-sm-xhdpi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FooterComponent/__tests__/__snapshots__/index.test.tsx.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FooterComponent/__tests__/index.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FooterComponent/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FooterComponent/style.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ErrorPage/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ErrorPage/style.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/LandingPage/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/LandingPage/style.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Manager/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Manager/style.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/NotFoundPage/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/NotFoundPage/style.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/react-app-env.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/actions/contacts.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/mapping.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/reducers/contacts.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/rootReducer.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/store.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/settings/en-us/components/FooterComponent/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/settings/en-us/components/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/settings/en-us/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/settings/en-us/labels.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/settings/en-us/menu.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/settings/en-us/pages/LandinPage/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/settings/en-us/pages/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/settings/images.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/settings/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/settings/keys.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/settings/mock.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/settings/routes.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/setupTests.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/antd/style.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/antd/variables.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/empatica/style.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/empatica/variables.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/globalStyle.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/MaskUtil.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1lmtrjRaSGAMDWiURs1yV1DGBQY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.linters.configure.manually.selectedeslint" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/node_modules/eslint" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/settings/en-us/components" />
+      <recent name="$PROJECT_DIR$/src/components" />
+      <recent name="$PROJECT_DIR$/src/pages" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/src/assets/images/landing" />
+      <recent name="$PROJECT_DIR$/src/assets/fonts/Apex" />
+      <recent name="$PROJECT_DIR$/src/assets/fonts" />
+      <recent name="$PROJECT_DIR$/src/pages" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="61886203-36f7-4e93-897f-b0e4fe638cfd" name="Default Changelist" comment="" />
+      <created>1608214295286</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608214295286</updated>
+      <workItem from="1608214296434" duration="1685000" />
+      <workItem from="1608216008420" duration="1967000" />
+      <workItem from="1608218083070" duration="19478000" />
+      <workItem from="1608330320119" duration="1930000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="757" y="436" width="846" height="510" key="#ESLint" timestamp="1608215996211">
+      <screen x="0" y="23" width="1792" height="1027" />
+    </state>
+    <state x="757" y="436" width="846" height="510" key="#ESLint/0.23.1792.1027@0.23.1792.1027" timestamp="1608215996211" />
+    <state x="360" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608233034470">
+      <screen x="0" y="23" width="1792" height="1027" />
+    </state>
+    <state x="360" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1792.1027@0.23.1792.1027" timestamp="1608233034470" />
+    <state x="617" y="345" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608218568203">
+      <screen x="0" y="23" width="1792" height="1027" />
+    </state>
+    <state x="617" y="345" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1792.1027@0.23.1792.1027" timestamp="1608218568203" />
+    <state x="634" y="290" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1608231037320">
+      <screen x="0" y="23" width="1792" height="1027" />
+    </state>
+    <state x="634" y="290" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1792.1027@0.23.1792.1027" timestamp="1608231037320" />
+    <state x="594" y="291" width="604" height="490" key="find.popup" timestamp="1608218019898">
+      <screen x="0" y="23" width="1792" height="1027" />
+    </state>
+    <state x="594" y="291" width="604" height="490" key="find.popup/0.23.1792.1027@0.23.1792.1027" timestamp="1608218019898" />
+    <state x="561" y="250" width="670" height="676" key="search.everywhere.popup" timestamp="1608305976401">
+      <screen x="0" y="23" width="1792" height="1027" />
+    </state>
+    <state x="561" y="250" width="670" height="676" key="search.everywhere.popup/-374.-1057.2560.1057/0.23.1792.1027@0.23.1792.1027" timestamp="1608305976401" />
+  </component>
+</project>

@@ -1,6 +1,6 @@
-# Lucas Maciel - Empatica
+# Lucas Maciel - empatica test
 
-Empatica frontend test
+Empatic front end test (but with mock back server)
 
 
 ## Getting Started
@@ -18,155 +18,21 @@ project on a live system.
 
 [npm](https://www.npmjs.com/get-npm) (v6.14.8)
 
-[redux](https://github.com/reduxjs/redux) * centralized state 
-(persistence kept with redux-persist)
-
-[cypress](https://www.cypress.io/) * end-to-end testing 
-
-[jest](https://github.com/facebook/jest) * component testing
-
-[enzyme](https://github.com/enzymejs/enzyme)  * component testing interactions
-
-[less](http://lesscss.org/)  * extension for CSS
-
-[husky](https://github.com/typicode/husky#readme) * commit and push control
-
-[antd](https://ant.design/docs/react/introduce) * UI library with useful
-components and layout guidelines
-
-[sentry](https://sentry.io/) * Error tracking
-
 
 ### Project structure
 
+In order to test it, you must follow the instructions
+inside each folder README
 
 ```
-config * overall webpack configs
-cypress * end to end tests
-puclic * static html files and div mounting point
-scripts * scripts for running and building
-src * main js folder
-    └── index.tsx * project starting point
-    ├── assets
-        ├── animations * lootie animation files
-        ├── fonts * fonts used
-        └── images * image assets 
-    └── components * components used in the project
-        └── SampleComponent 
-              ├──  __tests__ * component tests with jest + enzyme
-              ├──  index.tsx
-              └──  style.less
-    └── pages * pages used in the project
-        ├── SamplePage 
-        │      ├──  index.tsx
-        │      └──  style.less
-        └── Manager * router handler
-    └── redux
-    └── services * backend services connectors
-    └── settings * common project configs
-        ├── pt-br * portuguese strings used in the project
-        │      ├──  components
-        │      └──  pages
-        ├── images.tsx * assets loading
-        ├── index.tsx * mounting point
-        ├── keys.tsx * keys used in the project i.e maps
-        ├── mock.tsx * mock samples
-        └── routes.tsx * routes used in the project
-    └── styles * global styles
-        ├── antd  * antd less common overwritten variables and styles
-        ├── cs * clicksign less common global variables and styles
-        └── globalStyle.less * mounting point of global styles
-    └── utils * common used functions
+front * front-end test folder (enter the folder to see front 
+        README in detail)
+back * back-end test folder (enter the folder to see front 
+        README in detail)
 ```
-
-#### Error tracking
-In case of any error, an animation page will show and the error will
-be reported to the Sentry application monitoring. You can restart the
-application by just refreshing the page.
-
-### Installing
-
-A step by step series of examples that tell you how to get a
- development env running
-
-1 - Clone the project
-
-```
-git clone <project_url>
-```
-
-2 - Enter the project folder
-
-```
-cd <project_folder>
-```
-
-
-3 - Install project libraries
-
-
-```
-npm install
-```
-
-
-
-4 - Run the project
-
-
-```
-npm start
-```
-
-
-## Running the tests
-
-
-### Jest + enzyme
-Simple snapshot and component tests are done using Jest + Enzyme. Each 
-component has a folder __tests__ with its snapshot and component 
-tests. To run the jest tests 
-run:
-
-```
-npm run test
-```
-
-### E2E Integration tests - Cypress
-
-The project have few integration tests, which checks the 404 page and
-the process of adding and deleting a contact. To run the integration test:
-
-```
-npx  cypress open
-```
-
-The interface from cypress will open. You can run the test and
-check the result
-
-
-
-## Build
-
-```
-npm run build
-```
-### Running on a http server
-
-To serve the build in a server, just copy the generated content 
-from the build folder to the http server service. You can also try the build
-locally using the package https://www.npmjs.com/package/http-server
-
-
-
 
 ## Versioning
 Versioning is done by a internal process.
-
-### git
-In order to maintain the project best practices and prevent bugs. Husky is 
-set to run eslint (airbnb style) fixes, maintain prettier style
-and run the tests before commit and push.
 
 
 ## Authors
