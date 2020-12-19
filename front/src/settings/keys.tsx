@@ -7,6 +7,8 @@ export const KEYS = {
 	maps: '',
 	mapbox: '',
 	pageKeys: {
-		index: '/'
+		index: '/',
+		login: '/login',
+		user: '/user'
 	}
 }

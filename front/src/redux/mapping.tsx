@@ -1,1 +1,2 @@
-export const ADD_SAMPLE = 'ADD_SAMPLE'
+export const LOGIN = 'LOGIN'
+export const LOGOUT = 'LOGOUT'
