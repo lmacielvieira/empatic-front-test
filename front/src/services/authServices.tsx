@@ -1,7 +1,7 @@
 import {request} from './requestServices'
 import {ROUTES} from '../settings'
 
-export function login(mail: string, password: string) {
+export function userLogin(mail: string, password: string) {
 	const routeInfo = ROUTES.user.login
 	const url = ROUTES.routeUrl + routeInfo.url
 

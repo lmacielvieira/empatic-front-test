@@ -1,0 +1,85 @@
+@componentName: ~"login-form";
+@import (reference) "../../styles/globalStyle";
+
+@btn-height: 40px;
+@btn-width: 217px;
+
+.@{componentName} {
+
+   .ant-form-item-label{
+      height: 30px;
+   }
+
+   .ant-form-item-has-error .ant-form-item-explain, .ant-form-item-has-error .ant-form-item-split {
+      margin-left: 8px;
+   }
+
+   .ant-input {
+      background: white!important;
+    }
+
+      .@{componentName}-forgot-label{
+         cursor: pointer;
+         display: flex;
+         flex-direction: revert;
+         justify-content: flex-end;
+         align-items: center;
+         margin-right: 8px;
+         font-size: 16px;
+         line-height: 16px;
+         font-style: normal;
+         font-weight: normal;
+      }
+
+      .@{componentName}-label{
+         font-size: 18px;
+         line-height: 18px;
+         font-style: normal;
+         font-weight: normal;
+      }
+
+      .@{componentName}-input{
+         height: 40px;
+         background: white;
+         border-radius: 18px;
+         font-size: 18px;
+      }
+
+   .@{componentName}-button-box{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .@{componentName}-confirm-button{
+				.empaticaBtn(@red, @white, @red,
+					@darkRed, @white, @darkRed);
+					max-width: @btn-width;
+					height: @btn-height;
+					width: @btn-width;
+         	border-radius: 18px;
+      }
+   }
+
+   .ant-form-explain{
+      text-align: right;
+   }
+}
+
+
+@keyframes shake {
+   10%, 90% {
+      transform: translate3d(-1px, 0, 0);
+   }
+
+   20%, 80% {
+      transform: translate3d(2px, 0, 0);
+   }
+
+   30%, 50%, 70% {
+      transform: translate3d(-4px, 0, 0);
+   }
+
+   40%, 60% {
+      transform: translate3d(4px, 0, 0);
+   }
+}

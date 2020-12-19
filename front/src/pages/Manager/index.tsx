@@ -11,6 +11,7 @@ import {
 import NotFoundPage from '../NotFoundPage'
 import ErrorPage from '../ErrorPage'
 import LandingPage from '../LandingPage'
+import LoginPage from '../LoginPage'
 import UserPage from '../UserPage'
 import {store} from '../../redux/store'
 
@@ -86,6 +87,7 @@ export default class Manager extends React.Component<{}, {error: boolean}> {
 					) : (
 						<Switch>
 							<Route exact path={KEYS.pageKeys.index} component={LandingPage} />
+							<Route exact path={KEYS.pageKeys.login} component={LoginPage} />
 							<ProtectedRoute
 								exact
 								path={KEYS.pageKeys.user}
