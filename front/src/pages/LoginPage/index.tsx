@@ -1,5 +1,6 @@
 import React from 'react'
 import {connect} from 'react-redux'
+import {Link} from 'react-router-dom'
 import t from 'typy'
 import {Spin, message} from 'antd'
 import {History} from 'history'
@@ -36,7 +37,6 @@ class LoginPage extends React.Component<IProps, IState> {
 
 	componentDidMount() {
 		const {state, history} = this.props
-		console.log('OI')
 
 		if (t(state, 'userReducer.isLogged').safeBoolean) {
 			history.replace(KEYS.pageKeys.user)
@@ -59,8 +59,8 @@ class LoginPage extends React.Component<IProps, IState> {
 			values.email =
 				typeof info.email === 'string' ? info.email.toLowerCase() : info.email
 			values.email = info.email.trim()
-			await userLogin(info.email, info.password)
-			await dispatch(login())
+			const response = await userLogin(info.email, info.password)
+			await dispatch(login(response.id))
 			this.setState({loading: false})
 			history.push(KEYS.pageKeys.user)
 		} catch (e) {
@@ -90,7 +90,9 @@ class LoginPage extends React.Component<IProps, IState> {
 	renderInfo = () => {
 		return (
 			<div className={`${this._pageName}-info-wrapper`}>
-				<img className={`${this._pageName}-logo`} src={IMAGES.logo} alt="" />
+				<Link to={KEYS.pageKeys.index}>
+					<img className={`${this._pageName}-logo`} src={IMAGES.logo} alt="" />
+				</Link>
 				<div className={`${this._pageName}-know-wrapper`}>
 					<span className={`${this._pageName}-text`}>
 						{SETTINGS.LoginPage.knowLabel}

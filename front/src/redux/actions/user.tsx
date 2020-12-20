@@ -1,8 +1,9 @@
 import {LOGIN, LOGOUT} from '../mapping'
 
-export function login() {
+export function login(id: number) {
 	return {
-		type: LOGIN
+		type: LOGIN,
+		id
 	}
 }
 

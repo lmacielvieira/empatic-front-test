@@ -1,0 +1,103 @@
+@import (reference) '../../styles/globalStyle';
+@componentName: ~'header-component';
+@tabHeight: 64px;
+@maxWidth: 1200px;
+@iconWidth: 44px;
+@iconHeight: 40px;
+@tabMargin: 32px;
+@tabSmallMargin: 8px;
+
+.@{componentName} {
+  width: 100%;
+  min-height: @tabHeight;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  background: @primary-color;
+  justify-content: space-between;
+
+
+
+
+  .@{componentName}-btn {
+		.empaticaBtn
+	}
+
+  .@{componentName}-info-holder {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-right: @tabMargin;
+
+    .@{componentName}-avatar {
+      width: 30px;
+      height: 30px;
+      background-color: white;
+      border-radius: 100%;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  .@{componentName}-holder {
+    display: flex;
+    align-items: center;
+    margin-left: @tabMargin;
+
+    .@{componentName}-title {
+      color: white;
+      margin-left: 16px;
+      font-weight: bold;
+    }
+
+    .@{componentName}-icon {
+      height: @iconHeight;
+      object-fit: contain;
+      user-select: none;
+    }
+  }
+
+
+  .@{componentName}-col-wrapper {
+		line-height: 14px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: flex-end;
+	}
+
+  .@{componentName}-name {
+    color: white;
+    font-size: 12px;
+    margin-right: 8px;
+  }
+
+  .@{componentName}-link {
+    color: white;
+    font-size: 12px;
+		text-decoration: underline;
+    margin-right: 8px;
+  }
+}
+
+
+
+@media screen and (max-width: @screen-lg) {
+  .@{componentName} {
+
+    .@{componentName}-info-holder {
+      margin-right: @tabSmallMargin;
+    }
+    .@{componentName}-holder {
+      margin-left: @tabSmallMargin;
+    }
+
+
+  }
+}
+

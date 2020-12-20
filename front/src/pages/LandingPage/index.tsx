@@ -4,6 +4,7 @@ import {Col} from 'antd'
 import './style.less'
 import {IMAGES, SETTINGS} from '../../settings'
 import {FooterComponent} from '../../components/FooterComponent'
+import {HeaderComponent} from '../../components/HeaderComponent'
 
 export default class LandingPage extends React.Component {
 	_pageName = 'landing-page'
@@ -99,6 +100,7 @@ export default class LandingPage extends React.Component {
 	render() {
 		return (
 			<div className={`${this._pageName}`}>
+				<HeaderComponent />
 				{this.renderSmartSection()}
 				{this.renderEmbraceSection()}
 				<FooterComponent />
