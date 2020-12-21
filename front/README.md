@@ -164,6 +164,12 @@ locally using the package https://www.npmjs.com/package/http-server
 
 /login <- it can only be acessed if not logged
 
+### Tested browsers && CI/CD
+tested on chrome and safari
+
+the CI/CD used is the one from github actions, only running the simple snapshot
+tests
+
 
 
 ## Versioning
