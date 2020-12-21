@@ -135,6 +135,9 @@ npm run test
 The project have few integration tests, which checks the 404 page and
 the process of adding and deleting a contact. To run the integration test:
 
+** the cypress is expecting the front to run at http://localhost:3001/. If
+you run the front server on another port, please change the baseUrl at
+cypress.json
 ```
 npx  cypress open
 ```
@@ -153,6 +156,15 @@ npm run build
 To serve the build in a server, just copy the generated content
 from the build folder to the http server service. You can also try the build
 locally using the package https://www.npmjs.com/package/http-server
+
+### Available routes
+/
+
+/user <- protected and allowed after login
+
+/login <- it can only be acessed if not logged
+
+
 
 ## Versioning
 

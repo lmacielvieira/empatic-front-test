@@ -11,7 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="61886203-36f7-4e93-897f-b0e4fe638cfd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/front/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +71,7 @@
       <workItem from="1608216008420" duration="1967000" />
       <workItem from="1608218083070" duration="19478000" />
       <workItem from="1608330320119" duration="2654000" />
+      <workItem from="1608520419167" duration="96000" />
     </task>
     <servers />
   </component>
@@ -106,10 +107,10 @@
       <screen x="0" y="23" width="1792" height="1027" />
     </state>
     <state x="634" y="290" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1792.1027@0.23.1792.1027" timestamp="1608231037320" />
-    <state x="594" y="291" width="604" height="490" key="find.popup" timestamp="1608218019898">
+    <state x="701" y="294" width="604" height="490" key="find.popup" timestamp="1608520495417">
       <screen x="0" y="23" width="1792" height="1027" />
     </state>
-    <state x="594" y="291" width="604" height="490" key="find.popup/0.23.1792.1027@0.23.1792.1027" timestamp="1608218019898" />
+    <state x="701" y="294" width="604" height="490" key="find.popup/0.23.1792.1027@0.23.1792.1027" timestamp="1608520495417" />
     <state x="561" y="250" width="670" height="676" key="search.everywhere.popup" timestamp="1608305976401">
       <screen x="0" y="23" width="1792" height="1027" />
     </state>
