@@ -11,6 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="61886203-36f7-4e93-897f-b0e4fe638cfd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.github/workflows/ci.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/front/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/front/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +73,7 @@
       <workItem from="1608216008420" duration="1967000" />
       <workItem from="1608218083070" duration="19478000" />
       <workItem from="1608330320119" duration="2654000" />
-      <workItem from="1608520419167" duration="224000" />
+      <workItem from="1608520419167" duration="417000" />
     </task>
     <servers />
   </component>

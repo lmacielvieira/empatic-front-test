@@ -9,6 +9,9 @@ running on your local machine for development and testing
 purposes. See deployment for notes on how to deploy the
 project on a live system.
 
+*** Do not forget to run backend server (http://localhost:3000/) prior to 
+running front 
+
 ### Prerequisites and main libs
 
 [react](https://reactjs.org/) (v16.13.1)
