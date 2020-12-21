@@ -2,8 +2,11 @@
 @pageName: ~'user-page';
 
 .@{pageName} {
-	height: 100vh;
+	padding-top: @headerHeight;
+	min-height: 100vh;
+	height: 100%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	overflow-x: hidden;
 }
