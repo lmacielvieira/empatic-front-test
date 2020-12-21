@@ -87,17 +87,22 @@
 
 
 
-@media screen and (max-width: @screen-lg) {
+@media screen and (max-width: @screen-xs) {
   .@{componentName} {
 
     .@{componentName}-info-holder {
       margin-right: @tabSmallMargin;
+			max-width: calc(50% - @tabSmallMargin);
+
     }
     .@{componentName}-holder {
       margin-left: @tabSmallMargin;
-    }
+			max-width: calc(50% - @tabSmallMargin);
 
-
+			.@{componentName}-icon {
+				max-width: calc(50% - @tabSmallMargin);
+			}
+		}
   }
 }
 

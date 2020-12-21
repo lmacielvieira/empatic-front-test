@@ -50,11 +50,11 @@
     "identity-obj-proxy": "3.0.0",
     "immutability-helper": "^3.1.1",
     "jest": "26.6.0",
-    "jest-circus": "26.6.0",
     "jest-resolve": "26.6.0",
     "jest-watch-typeahead": "0.6.1",
     "less": "^3.13.0",
     "less-loader": "^7.1.0",
+    "lodash": "^4.17.20",
     "mini-css-extract-plugin": "0.11.3",
     "optimize-css-assets-webpack-plugin": "5.0.4",
     "pnp-webpack-plugin": "1.6.4",
@@ -141,6 +141,7 @@
     "eslint-plugin-react": "^7.21.5",
     "eslint-plugin-react-hooks": "^4.2.0",
     "husky": "^4.3.6",
+    "jest-circus": "^26.6.0",
     "lint-staged": "^10.5.3",
     "prettier": "^2.2.1",
     "pretty-quick": "^3.1.0"
@@ -172,7 +173,7 @@
       "<rootDir>/src/**/*.{spec,test}.{js,jsx,ts,tsx}"
     ],
     "testEnvironment": "jsdom",
-    "testRunner": "/Users/lucas/Git/testes/empatica/node_modules/jest-circus/runner.js",
+    "testRunner": "<rootDir>/node_modules/jest-circus/runner.js",
     "transform": {
       "^.+\\.(js|jsx|mjs|cjs|ts|tsx)$": "<rootDir>/node_modules/babel-jest",
       "^.+\\.css$": "<rootDir>/config/jest/cssTransform.js",

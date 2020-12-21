@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<OrderFormModalComponent /> renders <OrderFormModalComponent /> closed 1`] = `ShallowWrapper {}`;
+
+exports[`<OrderFormModalComponent /> renders <OrderFormModalComponent /> opened 1`] = `ShallowWrapper {}`;
